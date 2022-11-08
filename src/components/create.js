@@ -32,7 +32,7 @@ export class Create extends React.Component {
         ${this.state.cover},
         ${this.state.author}`);
 
-        //creates a const for each of the following, title, cover, author
+        //creates a const for each of the following, title, cover, author using the object book
         const book = {
             title:this.state.title,
             cover:this.state.cover,
