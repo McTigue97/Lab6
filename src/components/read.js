@@ -4,7 +4,7 @@ import axios from "axios";
 
 export class Read extends React.Component{
     
-    //axios will make http request to the link
+    //axios will make http request to the link at port 4000
     componentDidMount() {
         axios.get('http://localhost:4000/api/books')
 
